@@ -1,0 +1,580 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+   
+}
+.container-fluid{
+ background-color: black;
+ color: white;
+}
+.logo{
+    padding: 20px;
+   
+    
+}
+select{
+    width:100px;
+    height: 30px;
+}
+#lang
+{
+    width:100px;
+    height: 30px; 
+    border-radius: 5px;
+    
+
+}
+#select1{
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+  
+}
+.sign
+{
+    width:100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.logo
+{
+    width:150px; 
+}
+#s1
+{
+    /* background-image: url(./images/header-image.png); */
+    /* background-image:url(./images/header-image.png), linear-gradient( rgba(0, 0, 0,1),rgba(0, 0, 0, 1)); */
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/header-image.png);
+
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+    
+}
+#navv
+{
+    background-color: transparent !important;
+}
+.head1
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 14%;
+    align-content: center;
+    left: 80px;
+    text-align: center;
+   
+}
+.unlimited
+{
+    font-weight: 700;
+    font-size:50px;
+}
+.get-start{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 35%;
+    align-content: center;
+    left: 25px;
+    text-align: center;
+    
+   
+}
+.gs 
+{
+    width:100px;
+    height: 48px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+#frm 
+{
+    height: 50px;
+    width:350px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+   
+    color: rgba(225,225,225,0.7);
+}
+input::placeholder
+{
+    color: white;
+    padding: 20px;
+}
+#f2
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.vd1
+{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover; 
+}
+.main-vid
+{
+    position: relative;
+}
+.abs
+{
+    position: absolute;
+    top: 0;
+}
+#imm
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 180px;
+    margin-left: 50px;
+    filter:brightness(100)
+}
+.butt2{
+    position: absolute;
+ bottom: 0;
+ margin-left: 200px;
+ margin-top: 200px;
+ 
+
+}
+.abs{
+    margin-top: 30px;
+}
+#s2
+{
+    margin-top: 30px;
+}
+.pn
+{
+    
+    width: 130px;
+    height: 50px;
+    margin-left: -60px;
+    display: inline-block;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    
+   
+    font-weight: bold;
+    /* padding: 15px 30px; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+    
+}
+.pn:active {
+    background-color: #d40813;
+    transform: scale(1);
+  }
+  .pn:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+  }
+.mi{
+    width: 120px;
+    height: 40px;
+    
+    
+
+}
+.butt3 
+{
+    position: absolute;
+    margin-left: 50px;
+}
+.card 
+{
+    margin-left: 30px;
+}
+#carouselExample 
+{
+    width: 100%;
+}
+#car-c1 
+{
+    margin-left: 50px;
+}
+#tr 
+{
+    color: red;
+    font-weight: 700;
+}
+#s3
+{
+    margin-top: 30px;
+    
+}
+#cr3 
+{
+    margin-left: 30px;
+}
+.card-title 
+{
+    font-weight: 700;
+    color: white;
+    background-color: #fff;
+}
+.card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+  }
+  .btn-primary {
+    background: linear-gradient(45deg, #e50914, #d81b60); /* Gradient background */
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.3s, transform 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .card-body 
+  {
+    align-items: center;
+    text-align:center;
+  }
+ #wn 
+ {
+    font-weight: bold;
+   
+ }
+
+.card img {
+    border-bottom: 1px solid #333;
+  }
+  .card .card-text {
+    
+    color: #b3b3b3;
+   
+  }
+  #down 
+  {
+    background-color: #e50914;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      padding: 10px 20px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .card-body 
+  {
+    background-color: #333;
+    color: #b3b3b3;
+  }
+  .card-title 
+  {
+    color: #fff;
+  }
+  .d-flex 
+  {
+    position: relative;
+  }
+  .car-button 
+  {
+    position: absolute;
+    
+  }
+  .car-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+  }
+  .car-button button {
+    /* background-color: #e50914; */
+    border: none;
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    left: 0;
+    margin-top: 110px;
+    margin-left: 20px;
+  }
+  .pp1:hover{
+    background-color: #d40813;
+  }
+ .dd1:hover{
+    background-color: #d40813;
+ }
+ .car 
+ {
+    margin: 0px 30px 0px 0px;
+ }
+ #arrow 
+ {
+    
+ }
+ #s4 
+ {
+    margin-top: 40px;
+ }
+ #s5 
+ {
+    margin-top: 50px;
+ }
+ .heead1{
+    color: #d40813;
+    font-weight: bold;
+ }
+ #s6 
+ {
+    margin-top: 50px;
+ }
+ .children
+ {
+    display: flex;
+ }
+ .child-head 
+ {
+    margin-top: 250px;
+    text-align:center;
+ }
+ #cpfc 
+ {
+    font-weight: bold;
+ }
+ #cpcf1 
+ {
+    color: #d40813;
+    font-weight: bold;
+ }
+ .cld 
+ {
+    color: #f40612;
+ }
+ .parent
+ {
+    display: flex;
+ }
+.pw2 
+{
+   margin-top: 30px; 
+}
+/* example */
+#s8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .parent {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Optional: space out the items */
+    width: 100%;
+    padding: 0 20px; /* Optional: padding around the parent container */
+  }
+  
+  .pw2 {
+    flex: 1; /* Make each child take up equal space */
+    text-align: center;
+    
+  }
+  
+  #cpfc1 {
+    margin-bottom: 10px;
+  }
+  
+  #member1 {
+    margin-top: 0; /* Reset any default margin */
+  }
+  #cpfc1 
+  {
+    font-weight: bold;
+  }
+  .cld 
+  {
+    font-weight: bold;
+  }
+  .fqa 
+  {
+    text-align: center;
+    font-weight: bold;
+  }
+.faq
+  {
+    width:900px;
+    align-items: center;
+    margin-left: 300px;
+  }
+.main-foot 
+{
+    display: flex;
+    justify-content:space-evenly
+}
+.aad{
+    text-decoration: none;
+    color: #fff;
+    text-align:center;
+    
+}
+li 
+{
+    list-style: none;
+}
+.pf{
+    text-align: center;
+}
+#s10 
+{
+    margin-top: 40px;
+}
+.s111
+{
+    text-align: center;
+    color: #d40813;
+}
+#s11
+{
+    background-color: black;
+}
+.rd 
+{
+    color: #e50914;
+}
+/* responsive */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+*
+{
+
+}
+@media(max-width:480px)
+{
+  #barr
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .head1{
+    
+  }
+  .unlimited{
+    font-size: xx-large;
+    margin-left: -100px;
+  }
+  .watch 
+  {
+    margin-left: -100px;
+  }
+  .ready 
+  {
+    margin-left: -130px;
+    font-size: small;
+  }
+  #frm
+  {
+    margin-top: 100px;
+    margin-left: -80px;
+    width:200px;
+  }
+  #s1 
+  {
+    height: 80vh;
+  }
+  #imm
+  {
+    display: none;
+  }
+  .main-vid{
+    
+  }
+  .pn 
+  {
+    position: absolute;
+    margin-top: 200px;
+  }
+  .d-flex
+  {
+    flex-direction: column;
+  }
+  #cpfc
+  {
+    font-size: small;
+    margin-top: -200px;
+  }
+  #member
+  {
+    font-size: small;
+  }
+  #s8
+  {
+    margin-top: -280px;
+  }
+  #cpfc1 
+  {
+    font-size: small;
+  }
+  #member1 
+  {
+    font-size: small;
+  }
+  #s9
+  {
+    margin-top: -220px;
+  }
+  .faq 
+  {
+    width:350px;
+    margin-left: 40px;
+  }
+}
+
